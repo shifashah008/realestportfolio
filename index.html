@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <title> Shifa Shah</title>
+    <link rel="icon" type="image/jpg" href="s..jpg">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <script src="index.js"></script>
+    <header>
+<div class="basil">          
+<h1>Shifa Shah</h1>
+            <nav>
+<ul>
+    <div class="listbox">
+    <li class="list"><a href="home.html" target="_blank" title="this takes you to home page">Home</a></li>
+    <li class="list"><a href="about.html" target="_blank" title="this takes you to about session">About</a></li>
+   
+    <li class="list"><a href="skills.html" target="_blank" title="this takes you to skills page">Skills</a></li>
+    <li class="list"><a href="contact.html" target="_blank" title="this takes you to contacts">Contacts</a></li>
+    </div></ul>
+            </nav>
+     <div class="clear"></div>
+    <section class="hero">      
+        <div class="container">
+            
+                 <h5>Hi I am </h5>
+                 <h2>Shifa Shah</h2> 
+                 <a href="cv/cv.html" target="_blank">
+                <button class="buutton">Download CV</button>
+                </a><br><br>
+
+        </div>
+    </section>
+</div>    
+    <section class="separate">
+        <div>
+            <div>            
+                <img class="myimage" src="photohtml.jpg" height="300" alt="this is an image of a girl">
+            </div>
+            <div>      
+                <h2>About Me</h2>
+                <p>My name is Shifa Shah. Iam from ECE department, excited to learn and explore more about web development.</p> <br>
+                <a href="cv/cv.html" target="_blank">
+                <button>Download CV</button>
+                </a>
+            </div>
+        </div>        
+    </section>
+
+    <div class="bluebg">
+    <h2 class="big_center">My Skills</h2>
+    <section class="skills">
+        <div>
+            <div class="box1">
+                <img class="center" src="webdev.gif" height="100px" width="100px">
+                <h3 class="center_text">Web Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, earum similique labore explicabo, praesentium quam tempore aliquam doloribus debitis excepturi hic animi? Commodi voluptas facere reiciendis magnam ab. Itaque, veritatis?</p>
+            </div>
+            <div class="box1">
+                <img class="center" src="webdesign.gif" height="100px" width="100px">
+                <h3 class="center_text">Web Design</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus reprehenderit assumenda, repudiandae delectus dolorem sequi beatae quisquam amet tenetur minus laudantium expedita consectetur est quo, ipsa pariatur itaque excepturi quidem.</p>
+            </div>
+
+            <div class="box1">
+                <img class="center" src="skillss.gif" height="100px" width="100px">
+                <h3 class="center_text">Coding</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi itaque quasi reprehenderit nam est impedit, commodi eius atque. Qui architecto aliquid dolorum blanditiis distinctio quisquam veniam reprehenderit, accusantium necessitatibus magni.</p>
+
+            </div>  
+            
+            <div class="clear"></div>
+        </div>
+    </section>
+    </div>
+    
+    <div>
+    <section class="darkbluebg">
+    <div class="box2">
+    <section>
+     <h2 class="big_center2">Let's Connect</h2>
+     <div class='slogan'>
+     <button type="button" onclick="changecontent()" class="knowmorebutton">Know more</button>
+     <p id="knowmore">Enter your contact details below</p></div>
+     <form onsubmit="return validation();" novalidate>
+        <div>
+            <label class="darkblue" for="name">Name:</label>
+             <input type="text" id="nameinput" placeholder="your name" required>
+             <p id="namevalidation">Name cannot be empty!</p>
+        </div><br>
+        <div>
+            <label class="darkblue" for="email">Email:</label>
+    <input type="email" id="email" placeholder="your email address" required>
+
+        </div><br>
+        <div>
+            <label class="darkblue" for="phone">Phone Number:</label>
+            <input type="tel" id="phoneinput" placeholder="1234567890" maxlength="10">
+            <p id="phonevalidation">Phone number cannot be empty!</p>
+        </div><br>
+        <div>
+            <label class="darkblue" for="message">Leave a message:</label>
+            <textarea id="message" rows="5" cols="50"></textarea>
+        </div><br>
+        <div>
+        <input class="center submitbutton" type="submit">
+         </div>
+     </form>
+     </div>
+    </section>
+
+     <footer>
+        <div>
+            <p class="footertext">
+                Shifa Shah &copy 2026. All rights reserved.
+            </p>
+        </div>
+     </footer>
+    </section>
+    </div>
+    
+    </header>
+</body>
+</html>
